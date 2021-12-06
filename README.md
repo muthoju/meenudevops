@@ -1,2 +1,1 @@
-# webAppExample
-Web Application2
+#adding devops projects for practice
