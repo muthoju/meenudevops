@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Gitcheckout') {
             steps {
-              git credentialsId: 'git_cred', url: 'https://github.com/surendra-devops-bit/webAppExample.git' 
+              git credentialsId: 'git_cred', url: 'https://github.com/Meenakshi0812/meenudevops.git' 
             }
         }
         stage('build') {
