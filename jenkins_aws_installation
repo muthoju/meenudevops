@@ -2,7 +2,7 @@ pre-requisites
 first, you need to create linux EC2 instance and follow the basic steps. and in security group make sure to open port number 8080 .( for this add rule-->custom tcp-->enter the port number as 8080)
 after creating linux Ec2 instance , open mobexterm and click on new seesion-->SSH-->enter the ip address which you have createdin linux ec2 instance and enter username and choose the option for upload keypair and click on OK.
 Now in browser open the link https://pkg.jenkins.io/redhat-stable/.
-Enter the following command in mobexterm 
+Enter the following command in mobexterm ( you need to have a root user to perform all these commands , run command to get root access  #sudo su )
 # sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
   sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
   then it will download the all packages needed for jenkins.
