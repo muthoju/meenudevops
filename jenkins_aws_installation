@@ -14,7 +14,7 @@ You need to be root to perform this command. ###
 enter the following commands to load extras
 # sudo amazon-linux-extras install epel
 the it will load all the linux extras, then install now open jdk11 .for the follow the command
-# sudo amazon-linux-extras install java-open-jdk11
+# sudo amazon-linux-extras install java-openjdk11
 upto this java jdk11 is installed.
 now we need to install jenkins for this follow the command
 #sudo yum install jenkins
